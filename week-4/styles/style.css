@@ -21,8 +21,9 @@ h1 {
 
   }
 footer {
- background-color: blue;
+ background-color: rgb(255, 0, 242);
   font-weight: bold;
+  padding: 10;
 }
   html {
     font-size: 15px;
