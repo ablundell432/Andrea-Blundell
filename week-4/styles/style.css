@@ -11,6 +11,11 @@ h1 {
     border-bottom: 3px solid black;
     width: 800px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  img{
+  display: block;
+  margin:0 auto
   }
 footer {
  background-color: blue;
@@ -19,6 +24,7 @@ footer {
   html {
     font-size: 15px;
     font-family: 'Times New Roman', serif, Arial;
+    background-color: rgb(111, 0, 255)
    }
    
    h1 { font-size: 2.6rem; }{color: black;}
