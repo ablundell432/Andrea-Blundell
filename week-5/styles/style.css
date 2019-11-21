@@ -20,6 +20,11 @@ h1 {
     text-align: center;
 
   }
+  h2{
+    background-color:#990073;
+    padding: 30px;
+    text-align: center;
+  }
 footer {
  background-color: rgb(255, 0, 242);
   font-weight: bold;
