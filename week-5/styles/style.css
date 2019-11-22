@@ -25,6 +25,11 @@ h2 {
     padding: 30px;
     text-align: center;
   }
+h3 {
+  background-color:#990073;
+    padding: 30px;
+    text-align: center;
+}
 footer {
  background-color: rgb(255, 0, 242);
   font-weight: bold;
