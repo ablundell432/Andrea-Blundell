@@ -1,5 +1,5 @@
 h1 {
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: "Comic Sans MS", Gadget, sans-serif;
     color: rgb(15, 6, 6);
     text-align: center;
     font-size: 100;
@@ -9,17 +9,17 @@ h2 {
     font-size: 10;
     text-align: center;
 }
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
   border-style: solid;
-  border-color: rgb(14, 33, 206);
+  border-color: rgb(252, 253, 255);
 }
 
-li {
+nav li {
   float: left;
 }
 
@@ -34,3 +34,4 @@ li a {
 li a:hover {
   background-color: rgb(74, 90, 241);
 }
+
