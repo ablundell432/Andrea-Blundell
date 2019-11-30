@@ -1,8 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 h1 {
     font-family: "Comic Sans MS", Gadget, sans-serif;
     color: rgb(15, 6, 6);
     text-align: center;
-    font-size: 100;
+    font-size: 50px;
 }
 h2 {
     font-family: "Helvetica", Arial, Courier;
@@ -51,15 +55,50 @@ li a:hover {
 main {
   margin-top: 50px;
   }
-  .intro {
-    text-align: left;
-  }
-  .places {
-    text-align: left;
-  }
-.chester {
-  text-align: right;
+section {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
 }
-.van {
-  text-align: left;
+.intro, .chester, .van {
+  display: flex;
+}
+.intro {
+  align-items: center;
+}
+figure {
+  background:"#fefefe;"
+  border:"2px solid #fcfcfc;"
+  box-shadow:"0 1px 2px;"
+rgba (34, 25, 0.4);
+margin: 0 2px 15px;
+padding:15px;
+padding-bottom: 10px;
+transition: opacity .4s ease-in-out;
+display: inline-block;
+column-break-inside: avoid;
+}
+figure img {
+  width: 100%; height: auto; border-bottom: 1px solid;
+  #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+  image-orientation: from-image;
+}
+main {
+  margin-top: 50px;
+  column-width: 320px;
+  column-gap: 15px;
+  width: 90%;
+  max-width: 1100px;
+  margin: 50px auto;
+}
+figure caption {
+  font-size:  .9rem;
+  color: #444;
+  line-height: 1.5;
+}
+main:hover figure:not(:hover) {
+  opacity: 0.4;
 }
