@@ -107,3 +107,6 @@ ul#repo{
   list-style-type: none;
   background-color: black;
 }
+li {
+  margin-left: 20px;
+}
