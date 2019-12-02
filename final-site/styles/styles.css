@@ -67,7 +67,7 @@ section {
 .intro {
   align-items: center;
 }
-figure {
+#pix figure {
   background:"#fefefe;"
   border:"2px solid #fcfcfc;"
   box-shadow:"0 1px 2px;"
@@ -79,14 +79,14 @@ transition: opacity .4s ease-in-out;
 display: inline-block;
 column-break-inside: avoid;
 }
-figure img {
+#pix figure img {
   width: 100%; height: auto; border-bottom: 1px solid;
   #ccc;
   padding-bottom: 15px;
   margin-bottom: 5px;
   image-orientation: from-image;
 }
-main {
+#pix main {
   margin-top: 50px;
   column-width: 320px;
   column-gap: 15px;
@@ -94,11 +94,16 @@ main {
   max-width: 1100px;
   margin: 50px auto;
 }
-figure caption {
+#pix figure caption {
   font-size:  .9rem;
   color: #444;
   line-height: 1.5;
 }
-main:hover figure:not(:hover) {
+#pix main:hover figure:not(:hover) {
   opacity: 0.4;
+}
+ul#repo{
+  color:blue;
+  list-style-type: none;
+  background-color: black;
 }
