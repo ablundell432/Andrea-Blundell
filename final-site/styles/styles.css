@@ -108,3 +108,9 @@ ul#repo{
 li {
   margin-left: 20px;
 }
+.intro div, .chester div, .van div {
+   padding-left: 12px; padding-right: 12px; 
+}
+@media screen and (max-width: 600px) {
+  .chester, .intro, .van { flex-wrap: wrap; }
+}
